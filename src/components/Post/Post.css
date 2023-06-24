@@ -1,0 +1,50 @@
+.post-container {
+  display: flex;
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.post-user-details-section {
+  display: flex;
+  align-items: center;
+}
+.pill-container {
+  /* border: 1px solid red; */
+  margin: 0.25rem 0 1rem;
+}
+
+.pill-container span {
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+  color: purple;
+  background-color: rgb(254, 229, 254);
+  padding: 0.3rem 0.6rem;
+  border-radius: 1rem;
+  font-size: 0.5rem;
+  font-weight: 700;
+}
+
+.post-description-container {
+  margin-top: 0.5rem;
+}
+
+.post-toolbar-section {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.upvote-section {
+  display: flex;
+  flex-flow: column;
+  padding: 1rem 1rem 1rem 0;
+  align-items: center;
+}
+
+.upvotes {
+  color: purple;
+  font-weight: 800;
+}
