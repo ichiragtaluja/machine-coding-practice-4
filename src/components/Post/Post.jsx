@@ -37,6 +37,8 @@ export const Post = ({ userPost }) => {
   const [isUpvoted, setIsUpvoted] = useState(false);
   const [isDownvoted, setIsDownvoted] = useState(false);
 
+  const [showComments, setShowComments] = useState(false);
+
   return (
     <div className="post-container">
       <div className="upvote-section">
@@ -114,6 +116,8 @@ export const Post = ({ userPost }) => {
             {!isBookmarked ? <FaRegBookmark /> : <FaBookmark />}
           </div>
         </div>
+
+        
       </div>
     </div>
   );
