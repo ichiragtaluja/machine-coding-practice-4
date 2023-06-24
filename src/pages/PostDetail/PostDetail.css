@@ -1,0 +1,9 @@
+.comment-body {
+  display: flex;
+}
+
+.comments-section {
+  background-color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+}
